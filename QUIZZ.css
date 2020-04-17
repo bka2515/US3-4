@@ -1,0 +1,354 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.tete {
+    height: 50px;
+    width: 100%;
+    background-color: darkturquoise;
+}
+.header {
+    background-color: black;
+    height: 100px;
+}
+.logo {
+    background-image: url(./images/logo-QuizzSA.png);
+    background-size: cover;
+    height: 90px;
+    background-repeat: no-repeat;
+    width: 50px;
+    margin-left: 30px;
+}
+.partie{
+    width: 38%;
+    height: 220px;
+    left: 1%;
+    position: relative;
+    top: 8%;
+    background-color: tomato;
+    border-radius: 5px;
+}
+.FORM1{
+    top: 4%;
+    position: absolute;
+    left: 160%;
+}
+.FORM2{
+    top: 30%;
+    position: absolute;
+    left: 160%;
+}
+.FORM3{
+    top: 55%;
+    position: absolute;
+    left: 160%;
+}
+.FORM4{
+    top: 80%;
+    position: absolute;
+    left: 160%;
+}
+.NAV{
+    position: absolute;
+    left: -8%;
+    top: 2%;
+    text-emphasis: none;
+    color: black;
+}
+.partie1{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: darkturquoise;
+    border-radius: 6px;
+}
+.partie2{
+    width: 100%;
+    height: 160px;
+    position: relative;
+    background-color: white;
+}
+.content{
+    background-image: url(../images/img-bg.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+}
+.header-text{
+    color: white;
+    position: absolute;
+    top: 8%;
+    left: 35%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.butt {
+    position: absolute;
+    top: 5%;
+    left: 86%;
+    background-color: darkturquoise;
+    color: white;
+}
+.interphase{
+    background-color: wheat;
+    width: 96%;
+    height: 390px;
+    position: relative;
+    margin-top: -52%;
+    left: 2%;
+}
+.liste{
+    width: 50%;
+    height: 321px;
+    left: 40%;
+    position: absolute;
+    top: 15%;
+    background-color: white;
+}
+.liste_text{
+    font-size: 14px;
+    color: black;
+    top: 4%;
+    position: relative;
+    left: 30%;
+    font: fantasy;
+}
+.liste2 {
+    width: 92%;
+    height: 260px;
+    left: 4%;
+    position: absolute;
+    top: 12%;
+    background-color: blue;
+    border: turquoise;
+    
+} 
+
+.container{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    height: 70%;
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+}
+.container-header{
+    height: 50px;
+    background-color: red;
+}
+.title {
+    position: absolute;
+    color: white;
+    top: 8%;
+    left: 4%;
+    font-size: 12px;
+    font-weight: bold;
+}
+.form_input{
+    height: 60px;
+    margin: 10px 35px;
+}
+.form_controle{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding-bottom: 2px;
+    padding-top: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    color: silver;
+    
+}
+
+.error_form{
+    color: red;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.incon_form{
+    background-image: url(../images/ic-login.png);
+    height: 35px;
+    height: 30px;
+    background-repeat: no-repeat;
+    position: relative; 
+    top: 35px;
+    left: 90%;
+   
+}
+.incon_form_pwd{
+    background-image: url(../images/ic-password.png);
+    height: 35px;
+    height: 30px;
+    background-repeat: no-repeat;
+    position: relative; 
+    top: 35px;
+    left: 90%;
+   
+}
+.btn_form{
+    margin-top: 10px;
+    height: 30px;
+    color: white;
+    background-color: darkturquoise;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.link_form{
+    margin-left: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    color: silver;
+    text-decoration: none;
+    list-style: none;
+}
+#navigation li{
+    list-style: none;
+    color: black;
+
+}
+#navigation li a{
+    display: ruby-base-container;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    border: rgb(109, 200, 181);
+
+}
+.contenue{
+    width: 88%;
+    height: 398px;
+    left: 6%;
+    background-color: white; 
+    position: absolute;
+    top: 28%;
+}
+.form_input{
+    position: absolute;
+    left: 4%;
+    width: 6%;
+    height: 80%;
+    top: 10%;
+   
+}
+hr{
+    width: 60%;
+    top: 10%;
+    position: absolute;
+}
+p{
+    top: 4%;
+    left: 2%;
+    font-size: 12px;
+    position: absolute;
+}
+.btn_form{
+    position: absolute;
+    top: 80%;
+}
+.form_bt{
+    position: absolute;
+    top: 75%;
+}
+h5 {
+    top: -2%;
+    position: absolute;
+}
+.form_prenon{
+    position: absolute;
+    width: 350px;
+    height: 8%;
+    top: 4%;
+    border-radius: 4px;
+    left: -100%;
+}
+.form_nom{
+    position: absolute;
+    width: 350px;
+    height: 8%;
+    top: 18%;
+    border-radius: 4px;
+    left: -100%;
+    
+}
+.form_login{
+    position: absolute;
+    width: 350px;
+    height: 8%;
+    top: 32%;
+    border-radius: 4px;
+    left: -100%;
+}
+.form_passwd{
+    position: absolute;
+    width: 350px;
+    height: 8%;
+    top: 46%;
+    border-radius: 4px;
+    left: -100%;
+}
+.form_repass{
+    position: absolute;
+    width: 350px;
+    height: 8%;
+    top: 60%;
+    border-radius: 4px;
+    left: -100%;
+}
+.link_av{
+    top: 80%;
+    position: absolute;
+    left: 4%;
+    text-decoration: none;
+    
+}
+h5{
+    position: absolute;
+    top: -4%;
+    left: 2%;
+}
+.prenom{
+    position: absolute;
+    top: -8%;
+}
+.nom{
+    position: absolute;
+    top: 6%;
+}
+.mot_pass{
+    position: absolute;
+    top: 34%;
+}
+.mo_repass{
+    position: absolute;
+    top: 48%;
+}
+.login{
+    position: absolute;
+    top: 20%;
+}
+.form_bt{
+    position: absolute;
+    top: 86%;
+    left: 15%;
+    width: 18%;
+    height: 6%;
+    background-color: darkturquoise;
+}
+.btn_file{
+    position: absolute;
+    left: 40%;
+    
+}
+.btn_for{
+    position: absolute;
+    left: 38%;
+    top: 80%;
+    height: 8%;
+    background-color: darkturquoise;
+}
+
+
+
